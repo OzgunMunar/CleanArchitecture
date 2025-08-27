@@ -1,0 +1,249 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CleanArchitecture2025.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchitecture2025.Domain": "1.0.0",
+          "FluentValidation.AspNetCore": "11.3.1",
+          "Mapster": "7.4.2-pre02",
+          "TS.MediatR": "9.0.6",
+          "TS.Result": "9.0.1"
+        },
+        "runtime": {
+          "CleanArchitecture2025.Application.dll": {}
+        }
+      },
+      "FluentValidation/11.11.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
+      "FluentValidation.AspNetCore/11.3.1": {
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.11.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.1.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+        "dependencies": {
+          "FluentValidation": "11.11.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.11.0.0"
+          }
+        }
+      },
+      "Mapster/7.4.2-pre02": {
+        "dependencies": {
+          "Mapster.Core": "1.2.3-pre02"
+        },
+        "runtime": {
+          "lib/net9.0/Mapster.dll": {
+            "assemblyVersion": "7.4.2.0",
+            "fileVersion": "7.4.2.0"
+          }
+        }
+      },
+      "Mapster.Core/1.2.3-pre02": {
+        "runtime": {
+          "lib/net9.0/Mapster.Core.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.0-preview.6.25358.103": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.0-preview.6.25358.103"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.35903"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/10.0.0-preview.6.25358.103": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "10.0.0-preview.6.25358.103"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.35903"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/10.0.0-preview.6.25358.103": {
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.35903"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/10.0.0-preview.6.25358.103": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.0-preview.6.25358.103"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.35903"
+          }
+        }
+      },
+      "TS.EntityFrameworkCore.GenericRepository/9.0.1": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.0-preview.6.25358.103"
+        },
+        "runtime": {
+          "lib/net9.0/GenericRepository.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "TS.MediatR/9.0.6": {
+        "runtime": {
+          "lib/net9.0/TS.MediatR.dll": {
+            "assemblyVersion": "9.0.6.0",
+            "fileVersion": "9.0.6.0"
+          }
+        }
+      },
+      "TS.Result/9.0.1": {
+        "runtime": {
+          "lib/net9.0/TS.Result.dll": {
+            "assemblyVersion": "9.0.1.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
+      "CleanArchitecture2025.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.0-preview.6.25358.103",
+          "TS.EntityFrameworkCore.GenericRepository": "9.0.1"
+        },
+        "runtime": {
+          "CleanArchitecture2025.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArchitecture2025.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyIVdQBwSipxWG8MA3Rqox7iNbUNUTK5bfJi9tIdm4CAfH71Oo5ABLP4/QyrUwuakqpUEPGtE43BDddvEehuYw==",
+      "path": "fluentvalidation/11.11.0",
+      "hashPath": "fluentvalidation.11.11.0.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/11.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FjkfrGGwC+25oH8QpX1ti3gxkFjDDtotkAQWyQz2CkwQwEfRKTANjhh77I79kY8dov2ydK1SY+e4jiOWsbbDdQ==",
+      "path": "fluentvalidation.aspnetcore/11.3.1",
+      "hashPath": "fluentvalidation.aspnetcore.11.3.1.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viTKWaMbL3yJYgGI0DiCeavNbE9UPMWFVK2XS9nYXGbm3NDMd0/L5ER4wBzmTtW3BYh3SrlSXm9RACiKZ6stlA==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.11.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512"
+    },
+    "Mapster/7.4.2-pre02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ry6YPGImX4aL0+Jj0rn46vqYOxzeyKOdlr6LUPvby1NLc68E5T2gRhDVWxvFexgZGOIW/U8NM87kygE4xl7Qvw==",
+      "path": "mapster/7.4.2-pre02",
+      "hashPath": "mapster.7.4.2-pre02.nupkg.sha512"
+    },
+    "Mapster.Core/1.2.3-pre02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FDVPfGvCz1RRb1PYeoddiJftxo+ANAifiaqkZbH2kijZT2GcoR1w6byLQ8Czc9YBuNZqHHV4LKeXZA+eoFuCTw==",
+      "path": "mapster.core/1.2.3-pre02",
+      "hashPath": "mapster.core.1.2.3-pre02.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.0-preview.6.25358.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JtQ75+JhIRgSESuooSzYdKlxvYlME10F4r+jAM1PMcPwv3DUOmuCYPvzrYw21yJNoySzQa00RbkSXxWUyj5Gzw==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.0-preview.6.25358.103",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.10.0.0-preview.6.25358.103.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/10.0.0-preview.6.25358.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KvQW4eD4q7IzH3yZ8ugDc7l9ZvdCUczKWSE5PYd87UAH1Yxmz2HNcSCoHOFgYS090UgnZphq6C3t5mUGEseMvg==",
+      "path": "microsoft.entityframeworkcore/10.0.0-preview.6.25358.103",
+      "hashPath": "microsoft.entityframeworkcore.10.0.0-preview.6.25358.103.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/10.0.0-preview.6.25358.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z1a/oCaq5IVIRZb7keesidJdjE+2KOUK74q5sDmVgcgZywvQPeQQ1gtq305OReH4Uj79JGt5pW5BnXeapc5ZSw==",
+      "path": "microsoft.entityframeworkcore.abstractions/10.0.0-preview.6.25358.103",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.10.0.0-preview.6.25358.103.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/10.0.0-preview.6.25358.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1N+8QvBrRJA6rnbDI1TMUg4E175oCBRg/vurqlMcTuXy0CS1hqOvTSU050o4TglKs1jRtEWD12IH342uHgEGTA==",
+      "path": "microsoft.entityframeworkcore.relational/10.0.0-preview.6.25358.103",
+      "hashPath": "microsoft.entityframeworkcore.relational.10.0.0-preview.6.25358.103.nupkg.sha512"
+    },
+    "TS.EntityFrameworkCore.GenericRepository/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4tu3oiFJwTruet+mIdmuy3ibHFLcrsUw1U76CP70urdU34XkC87b1gaomsFa9oW8IcA/87bFKQ5HjMaKLNnWFA==",
+      "path": "ts.entityframeworkcore.genericrepository/9.0.1",
+      "hashPath": "ts.entityframeworkcore.genericrepository.9.0.1.nupkg.sha512"
+    },
+    "TS.MediatR/9.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1rLa7BFwr7/AZ68iXPaD0Sj9KaJX9bT7bcmTLorOy5vfxE+rua+kOfORSGNdtCGf5k+5E0Un1PybzdC0lLLpjg==",
+      "path": "ts.mediatr/9.0.6",
+      "hashPath": "ts.mediatr.9.0.6.nupkg.sha512"
+    },
+    "TS.Result/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sf3+wOoNYcSWJyRjjU+gwTa75Ynvue5KmhSNfBAqI0zgk0UIXjunNF+Kowr53I4UTzINl3Kcqcz0zxWwtgK1FA==",
+      "path": "ts.result/9.0.1",
+      "hashPath": "ts.result.9.0.1.nupkg.sha512"
+    },
+    "CleanArchitecture2025.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

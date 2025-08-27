@@ -1,0 +1,58 @@
+Application katmanina Domain katmanini referans ekle
+
+<ProjectReference Include="..\CleanArchitecture2025.Domain\CleanArchitecture2025.Domain.csproj" />
+
+application bitti
+
+
+dotnet new classlib -n CleanArchitecture2025.Infrastructure
+dotnet sln add CleanArchitecture2025.WebAPI/CleanArchitecture2025.WebAPI.csproj
+dotnet new web --no-https --name MyAspNetApp
+
+
+Server=localhost,1433;Database=ODataTestDB;
+User Id=sa;Password=MyStrongPassword12345!;
+TrustServerCertificate=True
+
+dotnet ef migrations add InitialCreate -s ../CleanArchitecture2025.WebAPI
+dotnet ef database update -s ../CleanArchitecture2025.WebAPI
+
+
+
+{
+  "firstName": "test1",
+  "lastName": "test1f",
+  "birthDate": "1991-27-12",
+  "salary": "100000",
+  "personalInformation": {
+    "tcNo": "12312312312",
+    "email": "null@gmail.com",
+    "phoneNumber1": "123123132",
+    "phoneNumber2": "123123123"
+  },
+  "address": {
+    "country": "test country",
+    "city": "some cirty",
+    "street": "some street"
+  }
+}
+
+{
+  "firstName": "test1",
+  "lastName": "test1f",
+  "birthDate": "1991-12-27",
+  "salary": 100000,
+  "personalInformation": {
+    "tcNo": "12312312312",
+    "email": null,
+    "phoneNumber1": null,
+    "phoneNumber2": null
+  },
+  "address": {
+    "country": null,
+    "city": null,
+    "street": null
+  }
+}
+
+1:36:00de kaldim employeeget yapiyoruz

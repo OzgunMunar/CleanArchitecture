@@ -1,0 +1,15 @@
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/bin/Debug/net10.0/CleanArchitecture2025.Application.deps.json
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/bin/Debug/net10.0/CleanArchitecture2025.Application.dll
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/bin/Debug/net10.0/CleanArchitecture2025.Application.pdb
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/bin/Debug/net10.0/CleanArchitecture2025.Domain.dll
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/bin/Debug/net10.0/CleanArchitecture2025.Domain.pdb
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.csproj.AssemblyReference.cache
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.AssemblyInfoInputs.cache
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.AssemblyInfo.cs
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.csproj.CoreCompileInputs.cache
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArc.82602203.Up2Date
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.dll
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/refint/CleanArchitecture2025.Application.dll
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/CleanArchitecture2025.Application.pdb
+/Users/Ozgun/Desktop/DotnetProjects/CleanArchitecture2025/CleanArchitecture2025.Application/obj/Debug/net10.0/ref/CleanArchitecture2025.Application.dll
