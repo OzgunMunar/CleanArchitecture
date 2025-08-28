@@ -55,4 +55,4 @@ dotnet ef database update -s ../CleanArchitecture2025.WebAPI
   }
 }
 
-1:36:00de kaldim employeeget yapiyoruz
+2:25:00de kaldim KeyCloak ogrenimi
